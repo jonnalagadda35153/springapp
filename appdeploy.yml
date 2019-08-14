@@ -27,6 +27,8 @@ spec:
             allowPrivilegeEscalation: false
           ports:
             - containerPort: 8080
+      nodeSelector:
+        nodegroup-type: frontend-workloads
 ---
 apiVersion: v1
 kind: Service
