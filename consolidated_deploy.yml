@@ -47,7 +47,7 @@ spec:
         app: tenant1app
     spec:
       containers:
-      - image: CONTAINER_IMAGE
+      - image: 682651395775.dkr.ecr.us-east-1.amazonaws.com/tenan-ecrdo-ejizmjpczu6:springapp.master..2019-08-22.02.47.31.c114aefd
         imagePullPolicy: Always
         name: tenant1app
         resources:
