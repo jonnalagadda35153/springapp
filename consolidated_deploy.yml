@@ -23,7 +23,6 @@ spec:
    -  protocol: TCP
       port: 80
       targetPort: 80
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -48,7 +47,7 @@ spec:
         app: tenant1app
     spec:
       containers:
-      - image: brentley/ecsdemo-frontend:latest
+      - image: CONTAINER_IMAGE
         imagePullPolicy: Always
         name: tenant1app
         resources:
